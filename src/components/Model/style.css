@@ -1,0 +1,130 @@
+
+/* ------------ POST ---------------- */
+
+.post_body {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.post_body > p {
+  word-break: break-all;
+}
+
+/* ------------------------------------*/
+
+/* ----------- COMMENTS -------------- */
+
+.comment_body > p {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  font-size: 14px;
+  line-height: 24px;
+  word-break: break-all;
+}
+
+/* ------------------------------------ */
+
+/* -------------- CARD ---------------- */
+
+.card {
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card_container {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  position: relative;
+}
+
+.card_votes {
+  background-color: rgb(28, 186, 248);
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+}
+
+.card_header {
+  padding: 20px;
+}
+
+.card_title {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card_date {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.card_body {
+  padding: 0 20px 20px 20px;
+}
+
+.card_body > p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card_nav {
+  border-top: 1px solid #e8e8e8;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.card_list {
+  list-style-type: none;
+  display: flex;
+}
+
+.card_actions {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(128, 128, 128);
+}
+
+.card_actions:not(:last-child) {
+  border-right: 1px solid #e8e8e8;
+}
+
+.card_icons {
+  cursor: pointer;
+  transition: 0.2s;
+  color: rgb(128, 128, 128);
+  font-size: 13px;
+}
+
+.card_icons:hover {
+  color:rgb(28, 186, 248);
+}
+
+/* ---------------------------------- */
+
+@media screen and (max-width: 719px) {
+  .card {
+    width: 100%;
+  }
+}

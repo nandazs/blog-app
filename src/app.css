@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+    color: #1a1a1a;   
+}
+
+h1, h2, h3, p, span, div {
+    color: #1a1a1a;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+body, html, #root {
+    height: 100%;
+}
+
+/* ------- ALL FORMS --------- */
+
+.form {
+    width: 100%;
+    max-width: 980px;
+}
+  
+.form_title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form label {
+    width: 100%;
+}
+  
+.form_field {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+  
+.form_field:focus {
+    outline: 1px solid rgb(28, 186, 248);
+}
+  
+.btn_submit {
+    padding: 10px;    
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 177, 247);
+    background-color: rgb(28, 186, 248);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+  
+.btn_submit:active {
+    border: 1px solid rgb(94, 209, 255);
+    background-color: rgb(116, 213, 252);
+    color: rgb(48, 48, 48);
+}

@@ -1,0 +1,107 @@
+
+/* ---------- TOPMENU ------------ */
+
+
+.topmenu_container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.topmenu {
+  width: 100%;
+  max-width: 300px;
+  height: 32px;
+  display: flex;
+  justify-content: baseline;
+}
+
+/* --------------------------------- */
+
+/* ---------- SORT BY --------------- */
+
+.sort_container {
+  flex: 2;
+  height: inherit;
+}
+
+.sort_select {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  padding: 3px 10px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0px;
+  color:rgb(167, 167, 167);
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s;
+  margin-right: 10px;
+}
+
+.sort_select:hover {
+  border: 1px solid rgb(28, 186, 248);
+}
+
+.sort_submenu {
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 9px -2px rgba(121, 121, 121, 0.3);
+  border: 1px solid #e8e8e8;
+  position: relative;
+  left: 0px;
+  bottom:-5px;
+  display: none;
+}
+
+.sort_submenu ul {
+  list-style: none;
+}
+
+.sort_item { 
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  transition: 0.3s;
+}
+
+.sort_item:hover {
+  background-color: rgba(28, 186, 248, 0.2);
+}
+
+.display {
+  display: block;
+}
+
+/* ------------------------------------ */
+
+/* --------- NEW POST BUTTON ---------- */
+
+.newpost_button {
+  flex: 1;
+  height: inherit;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 177, 247);
+  background-color: rgb(28, 186, 248);
+  padding: 7px 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.newpost_button:active {
+  border: 1px solid rgb(94, 209, 255);
+  background-color: rgb(116, 213, 252);
+  color: rgb(48, 48, 48);
+}
+
+/* -------------------------------------- */
+
+@media screen and (max-width: 719px) {
+  .topmenu_container {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,9 @@
+
+.noposts {
+  display: flex;
+  justify-content: center;
+}
+
+.noposts_container {
+  font-size: 25px;
+}

@@ -1,0 +1,24 @@
+
+
+/* ---------- COMMENTS ------------ */
+
+.comments_area {
+  display: block;
+  width: 100%;
+  padding: 50px 2%;
+}
+
+.comment_list {
+  list-style-type: none;
+}
+
+.comments_area_title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.comment_item {
+  margin-top: 10px;
+}
+
+/* ----------------------------- */
