@@ -12,4 +12,4 @@ Cada post precisava pertencer a uma categoria e poder receber comentários. O po
 
 ## Servidor Backend
 
-Informações sobre o backend podem ser encontradas no [`README`](./server/README.md) do servidor.
+Informações sobre o backend podem ser encontradas no [`README`](./src/server/README.md) do servidor.
